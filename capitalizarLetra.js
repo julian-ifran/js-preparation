@@ -21,4 +21,3 @@ let arrayEdited = cadenaADividir.split(" ");
 let newArray = arrayEdited.map(function(pal) {
   return pal.charAt(0).toUpperCase() + pal.slice(1);
 });
-console.log(newArray)
